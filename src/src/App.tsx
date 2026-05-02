@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Landing from './routes/Landing';
-import SparksHome from './routes/Sparks/SparksHome';
-import SparksLesson from './routes/Sparks/SparksLesson';
-import InnovatorsHome from './routes/Innovators/InnovatorsHome';
-import InnovatorsLesson from './routes/Innovators/InnovatorsLesson';
-import FutureHome from './routes/Future/FutureHome';
-import FutureLesson from './routes/Future/FutureLesson';
-import WikiIndex from './routes/Wiki/WikiIndex';
-import WikiYanshee from './routes/Wiki/WikiYanshee';
-import Playground from './routes/Playground/Playground';
+import Landing from '../routes/Landing';
+import SparksHome from '../routes/Sparks/SparksHome';
+import SparksLesson from '../routes/Sparks/SparksLesson';
+import InnovatorsHome from '../routes/Innovators/InnovatorsHome';
+import InnovatorsLesson from '../routes/Innovators/InnovatorsLesson';
+import FutureHome from '../routes/Future/FutureHome';
+import FutureLesson from '../routes/Future/FutureLesson';
+import WikiIndex from '../routes/Wiki/WikiIndex';
+import WikiYanshee from '../routes/Wiki/WikiYanshee';
+import Playground from '../routes/Playground/Playground';
 
 export default function App() {
   return (
