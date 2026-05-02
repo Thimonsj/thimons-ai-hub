@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-sparks { --bg: white; --accent-1: #FF6F61; }
+.theme-innovators { --bg: #f8fafc; --accent-1: #00A6FB; }
+.theme-future { --bg: #0F172A; --accent-1: #06B6D4; color: white; }
+
+body { background: var(--bg); }
