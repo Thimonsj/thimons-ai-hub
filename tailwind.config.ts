@@ -2,7 +2,7 @@ export default {
 content: [
   "./index.html",
   "./src/**/*.{js,ts,jsx,tsx}",
-  "./src/src/**/*.{js,ts,jsx,tsx}"
+  "./src/src/**/*.{js,ts,jsx,tsx}", // This catches that extra nested folder
 ],
   theme: {
     extend: {
