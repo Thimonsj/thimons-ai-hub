@@ -3,8 +3,7 @@ content: [
   "./index.html",
   "./src/**/*.{js,ts,jsx,tsx}",
   "./src/src/**/*.{js,ts,jsx,tsx}", // This catches that extra nested folder
-],
-  theme: {
+], theme: {
     extend: {
       colors: {
         sparks: { coral: '#FF6F61', sunshine: '#FFD166', mint: '#06D6A0' },
